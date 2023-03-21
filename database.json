@@ -1,0 +1,551 @@
+{
+  "protectedResources": {
+    "users": ["GET", "POST", "PUT", "PATCH", "DELETE"],
+    "products": ["POST", "PUT", "PATCH", "DELETE"]
+  },
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Administrator",
+      "lastName": "",
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin",
+      "avatar": "https://robohash.org/eaquequasincidunt.png?size=50x50&set=set1",
+      "gender": "Genderfluid",
+      "phone": "933-658-1213",
+      "birthday": "1994-03-23",
+      "status": true,
+      "createdAt": 1609483221000,
+      "modifiedAt": 1609483221000
+    },
+    {
+      "id": 2,
+      "firstName": "Alberta",
+      "lastName": "Farncomb",
+      "username": "afarncomb1",
+      "email": "afarncomb1@liveinternet.ru",
+      "password": "FfshsAlZ",
+      "avatar": "https://robohash.org/accusantiumminimamagni.png?size=50x50&set=set1",
+      "gender": "Male",
+      "phone": "510-449-7332",
+      "birthday": "2002-03-11",
+      "status": false,
+      "createdAt": 1617440961000,
+      "modifiedAt": 1618301961000
+    },
+    {
+      "id": 3,
+      "firstName": "Kizzie",
+      "lastName": "Shama",
+      "username": "kshama2",
+      "email": "kshama2@prlog.org",
+      "password": "kjU6qK1Bm",
+      "avatar": "https://robohash.org/voluptatemdebitiset.png?size=50x50&set=set1",
+      "gender": "Male",
+      "phone": "676-983-4977",
+      "birthday": "1997-09-29",
+      "status": false,
+      "createdAt": 1615745961000,
+      "modifiedAt": 1615976361000
+    },
+    {
+      "id": 4,
+      "firstName": "Tremayne",
+      "lastName": "Americi",
+      "username": "tamerici3",
+      "email": "tamerici3@skype.com",
+      "password": "xbNRPGk",
+      "avatar": "https://robohash.org/rerumoccaecatiprovident.png?size=50x50&set=set1",
+      "gender": "Genderfluid",
+      "phone": "548-721-4661",
+      "birthday": "2004-10-01",
+      "status": false,
+      "createdAt": 1610281342000,
+      "modifiedAt": 1619283693000
+    },
+    {
+      "id": 5,
+      "firstName": "Luciana",
+      "lastName": "Fernihough",
+      "username": "lfernihough4",
+      "email": "lfernihough4@oaic.gov.au",
+      "password": "hDuqo8j5TXTl",
+      "avatar": "https://robohash.org/nobisplaceataut.png?size=50x50&set=set1",
+      "gender": "Female",
+      "phone": "597-670-2841",
+      "birthday": "1999-01-30",
+      "status": true,
+      "createdAt": 1614362898000,
+      "modifiedAt": 1615410795000
+    },
+    {
+      "id": 6,
+      "firstName": "Ursuline",
+      "lastName": "Gorrick",
+      "username": "ugorrick5",
+      "email": "ugorrick5@meetup.com",
+      "password": "GH1yLLmJoq",
+      "avatar": "https://robohash.org/voluptatemenimerror.png?size=50x50&set=set1",
+      "gender": "Bigender",
+      "phone": "686-821-0488",
+      "birthday": "1996-01-29",
+      "status": false,
+      "createdAt": 1621283400000,
+      "modifiedAt": 1621528590000
+    },
+    {
+      "id": 7,
+      "firstName": "Carlotta",
+      "lastName": "Chivers",
+      "username": "cchivers6",
+      "email": "cchivers6@ebay.com",
+      "password": "n5hIT4NKk8Q",
+      "avatar": "https://robohash.org/voluptatequasiest.png?size=50x50&set=set1",
+      "gender": "Non-binary",
+      "phone": "428-749-0095",
+      "birthday": "1998-05-19",
+      "status": true,
+      "createdAt": 1614957930000,
+      "modifiedAt": 1614957930000
+    },
+    {
+      "id": 8,
+      "firstName": "Thorpe",
+      "lastName": "Humblestone",
+      "username": "thumblestone7",
+      "email": "thumblestone7@china.com.cn",
+      "password": "iYlKMYJqIy2T",
+      "avatar": "https://robohash.org/voluptasetexplicabo.png?size=50x50&set=set1",
+      "gender": "Bigender",
+      "phone": "722-376-2905",
+      "birthday": "2007-09-24",
+      "status": true,
+      "createdAt": 1613665586000,
+      "modifiedAt": 1613665586000
+    },
+    {
+      "id": 9,
+      "firstName": "Chick",
+      "lastName": "Kynnd",
+      "username": "ckynnd8",
+      "email": "ckynnd8@spotify.com",
+      "password": "cGdnd1HapM",
+      "avatar": "https://robohash.org/commodiexplicaboveritatis.png?size=50x50&set=set1",
+      "gender": "Bigender",
+      "phone": "825-276-2045",
+      "birthday": "2007-03-01",
+      "status": true,
+      "createdAt": 1612782806000,
+      "modifiedAt": 1612782806000
+    },
+    {
+      "id": 10,
+      "firstName": "Alexis",
+      "lastName": "Loughan",
+      "username": "aloughan9",
+      "email": "aloughan9@soundcloud.com",
+      "password": "BUSPoSABA3s",
+      "avatar": "https://robohash.org/suntisteaperiam.png?size=50x50&set=set1",
+      "gender": "Polygender",
+      "phone": "391-273-2238",
+      "birthday": "2000-05-04",
+      "status": true,
+      "createdAt": 1615245193000,
+      "modifiedAt": 1616246055000
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 12 Pro Max 128GB",
+      "price": 31990000,
+      "salePrice": 30000000,
+      "type": "iphone",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/213033/iphone-12-pro-max-xanh-duong-new-600x600-600x600.jpg",
+      "rating": 5,
+      "numReviews": 1,
+      "reviews": [
+        {
+          "name": "cao kha hieu",
+          "star": 5,
+          "comment": "ngon"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "iPhone XR 128GB",
+      "price": 12990000,
+      "salePrice": 11000000,
+      "type": "iphone",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/191483/iphone-xr-128gb-600x600.jpg",
+      "rating": 5,
+      "numReviews": 1,
+      "reviews": [
+        {
+          "name": "cao kha hieu",
+          "star": 5,
+          "comment": "ngon"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Samsung Galaxy S21 Ultra 5G 128GB",
+      "price": 30990000,
+      "salePrice": 29000000,
+      "type": "samsung",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/226316/samsung-galaxy-s21-ultra-bac-600x600-1-600x600.jpg",
+      "rating": 5,
+      "numReviews": 1,
+      "reviews": [
+        {
+          "name": "cao kha hieu",
+          "star": 5,
+          "comment": "ngon"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Samsung Galaxy Note 10+",
+      "price": 16990000,
+      "salePrice": 15000000,
+      "type": "samsung",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/206176/samsung-galaxy-note-10-plus-silver-new-600x600.jpg",
+      "rating": 5,
+      "numReviews": 1,
+      "reviews": [
+        {
+          "name": "cao kha hieu",
+          "star": 5,
+          "comment": "ngon"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "OPPO Reno5",
+      "price": 8990000,
+      "salePrice": 8000000,
+      "type": "oppo",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/220438/oppo-reno5-trang-600x600-1-600x600.jpg",
+      "rating": 5,
+      "numReviews": 1,
+      "reviews": [
+        {
+          "name": "cao kha hieu",
+          "star": 5,
+          "comment": "ngon"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "OPPO A15",
+      "price": 3990000,
+      "salePrice": 3000000,
+      "type": "oppo",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/229885/oppo-a15-black-600x600-2-600x600.jpg",
+      "rating": 5,
+      "numReviews": 1,
+      "reviews": [
+        {
+          "name": "cao kha hieu",
+          "star": 5,
+          "comment": "ngon"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Vivo Y51",
+      "price": 5590000,
+      "salePrice": 5300000,
+      "type": "vivo",
+      "images": "https://cdn.tgdd.vn/Products/Images/42/228950/vivo-y51-bac-600x600-600x600.jpg",
+      "rating": 5,
+      "numReviews": 1,
+      "reviews": [
+        {
+          "name": "cao kha hieu",
+          "star": 5,
+          "comment": "ngon"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Vivo V20",
+      "price": 7790000,
+      "salePrice": 7780000,
+      "type": "vivo",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/232614/vivov202021den-600x600.jpg",
+      "rating": 5,
+      "numReviews": 1,
+      "reviews": [
+        {
+          "name": "cao kha hieu",
+          "star": 5,
+          "comment": "ngon"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Xiaomi Redmi Note 10 (6GB/128GB)",
+      "price": 4690000,
+      "salePrice": 4680000,
+      "type": "xiaomi",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/222758/xiaomi-redmi-note-10-thumb-green-600x600-1-600x600.jpg",
+      "rating": 5,
+      "numReviews": 1,
+      "reviews": [
+        {
+          "name": "cao kha hieu",
+          "star": 5,
+          "comment": "ngon"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Xiaomi Mi 11 5G",
+      "price": 21990000,
+      "salePrice": 21880000,
+      "type": "xiaomi",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/226264/xiaomi-mi-11-xanhduong-600x600-600x600.jpg",
+      "rating": 5,
+      "numReviews": 1,
+      "reviews": [
+        {
+          "name": "cao kha hieu",
+          "star": 5,
+          "comment": "ngon"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Realme 7 Pro",
+      "price": 8490000,
+      "salePrice": 8000000,
+      "type": "realme",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/227689/realme-7-pro-bac-600x600.jpg",
+      "rating": 5,
+      "numReviews": 1,
+      "reviews": [
+        {
+          "name": "cao kha hieu",
+          "star": 5,
+          "comment": "ngon"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Realme C3 (3GB/32GB)",
+      "price": 2790000,
+      "salePrice": 2790000,
+      "type": "realme",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/218361/realme-c3-do-600x600-1-600x600.jpg",
+      "rating": 5,
+      "numReviews": 1,
+      "reviews": [
+        {
+          "name": "cao kha hieu",
+          "star": 5,
+          "comment": "ngon"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Vsmart Aris Pro",
+      "price": 7490000,
+      "salePrice": 7000000,
+      "type": "vsmart",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/228531/vsmart-aris-pro-green-600jpg-600x600.jpg",
+      "rating": 5,
+      "numReviews": 1,
+      "reviews": [
+        {
+          "name": "cao kha hieu",
+          "star": 5,
+          "comment": "ngon"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Vsmart Star 4 (3GB/32GB)",
+      "price": 2290000,
+      "salePrice": 2000000,
+      "type": "vsmart",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/225158/vsmart-start-3gb-den-600x600.jpg",
+      "rating": 5,
+      "numReviews": 1,
+      "reviews": [
+        {
+          "name": "cao kha hieu",
+          "star": 5,
+          "comment": "ngon"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Samsung Galaxy A52 5G",
+      "price": 2590000,
+      "salePrice": 2000000,
+      "type": "samsung",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/235440/samsung-galaxy-a52-5g-thumb-black-600x600-600x600.jpg",
+      "rating": 5,
+      "numReviews": 1,
+      "reviews": [
+        {
+          "name": "cao kha hieu",
+          "star": 5,
+          "comment": "ngon"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "iPhone SE 64GB ",
+      "price": 11490000,
+      "salePrice": 11000000,
+      "type": "iphone",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/230410/iphone-se-2020-trang-600x600-600x600.jpg",
+      "rating": 5,
+      "numReviews": 1,
+      "reviews": [
+        {
+          "name": "cao kha hieu",
+          "star": 5,
+          "comment": "ngon"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "iPhone 12 256GB",
+      "price": 25490000,
+      "salePrice": 23000000,
+      "type": "iphone",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/230410/iphone-se-2020-trang-600x600-600x600.jpg",
+      "rating": 5,
+      "numReviews": 1,
+      "reviews": [
+        {
+          "name": "cao kha hieu",
+          "star": 5,
+          "comment": "ngon"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "iPhone 12 mini 128GB",
+      "price": 17490000,
+      "salePrice": 15000000,
+      "type": "iphone",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/228741/iphone-mini-do-new-600x600-600x600.jpg",
+      "rating": 5,
+      "numReviews": 1,
+      "reviews": [
+        {
+          "name": "cao kha hieu",
+          "star": 5,
+          "comment": "ngon"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Samsung Galaxy A32",
+      "price": 6490000,
+      "salePrice": 6000000,
+      "type": "samsung",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/234315/samsung-galaxy-a32-4g-thumb-tim-600x600-600x600.jpg",
+      "rating": 5,
+      "numReviews": 1,
+      "reviews": [
+        {
+          "name": "cao kha hieu",
+          "star": 5,
+          "comment": "ngon"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Samsung Galaxy M51",
+      "price": 8990000,
+      "salePrice": 8000000,
+      "type": "samsung",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/217536/samsung-galaxy-m51-trang-new-600x600-600x600.jpg",
+      "rating": 5,
+      "numReviews": 1,
+      "reviews": [
+        {
+          "name": "cao kha hieu",
+          "star": 5,
+          "comment": "ngon"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Xiaomi Redmi Note 10 (6GB/128GB)",
+      "price": 5000000,
+      "salePrice": 5000000,
+      "type": "xiaomi",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/222758/xiaomi-redmi-note-10-thumb-green-600x600.jpg",
+      "rating": 5,
+      "numReviews": 1,
+      "reviews": [
+        {
+          "name": "cao kha hieu",
+          "star": 5,
+          "comment": "ngon"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Xiaomi Mi 11 Lite",
+      "price": 7900000,
+      "salePrice": 7000000,
+      "type": "xiaomi",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/233241/xiaomi-mi-11-lite-4g-blue-600x600.jpg",
+      "rating": 5,
+      "numReviews": 1,
+      "reviews": [
+        {
+          "name": "cao kha hieu",
+          "star": 5,
+          "comment": "ngon"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Xiaomi Redmi Note 9S",
+      "price": 5600000,
+      "salePrice": 5000000,
+      "type": "xiaomi",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/214924/xiaomi-redmi-note-9s-xanh-new-600x600-600x600.jpg",
+      "rating": 5,
+      "numReviews": 1,
+      "reviews": [
+        {
+          "name": "cao kha hieu",
+          "star": 5,
+          "comment": "ngon"
+        }
+      ]
+    }
+  ]
+}
